@@ -6,7 +6,7 @@ Final result file (.bam) is used as simulated WGBS reads.
 
 ## Installation
 conda env create -f simulate_wgbs.yaml
-- This commands creates a conda environment which is needed to run the uploaded Snakefile.
+- This command creates a conda environment which is needed to run the uploaded Snakefile.
 
 ## Input
 hg38.fa
