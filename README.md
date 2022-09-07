@@ -22,7 +22,7 @@ snakemake -j 10
 ## Result
 Files in 'meth_erosion' folder. 
 - 'meth_erosion' folder is compressed into the uploaded 'meth_erosion.zip' file.
-- ** Please note that these are results of setting 'NumRegions = 3' in the Snakefile. In the original simulation, 'NumRegions = 1000' was used instead. **
+- **Please note that these are results of setting 'NumRegions = 3' in the Snakefile. In the original simulation, 'NumRegions = 1000' was used instead.**
 - Since the size of files to be uploaded is limited in github, I presented results from using a smaller value for 'NumRegions' parameter instead of the original one.
 
 ## DAG visualization of Snakefile workflow: 
