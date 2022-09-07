@@ -19,10 +19,6 @@ snakemake -j 10
 - This command runs the uploaded Snakefile.
 - Of course, using any other possible number after '-j' option, specifying the number of CPU cores to be used, is available.
 
-## Visualize DAG of Snakefile workflow
-snakemake -j --dag | dot -Tpng -o dag.png 
-- Reference: https://haje01.github.io/2020/04/21/snakemake-tutorial.html
-
 ## Result
 Files in 'meth_erosion' folder. 
 - 'meth_erosion' folder is compressed into the uploaded 'meth_erosion.zip' file.
