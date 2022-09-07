@@ -6,3 +6,6 @@ Final result file (.bam) used as simulated WGBS reads
 
 ## Installation
 conda env create -f simulate_wgbs.yaml
+
+## Input
+hg38.fa
