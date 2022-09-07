@@ -6,11 +6,6 @@ import os
 import sys
 import argparse
 
-'''
-# snakemake commands
-snakemake -j 10 # run this Snakefile
-snakemake -j --dag | dot -Tpng -o dag.png # visualize DAG of this workflow
-'''
 NumRegions = 3 # for test 
 #NumRegions = 1000 # original
 
