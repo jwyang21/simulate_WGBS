@@ -10,13 +10,14 @@ conda env create -f simulate_wgbs.yaml
 ## Input
 hg38.fa
 - a GRCh38 fasta file named 'hg38.fa' is needed.
-- GRCh38 fasta file can be downloaded from NCBI (link: https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/)
+- GRCh38 fasta file can be downloaded from NCBI.
+  - GRCh38 download link (NCBI): https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/
 
 ## Run
 command to run Snakefile: snakemake -j 10
 
 ## Visualize DAG of Snakefile workflow
-snakemake -j --dag | dot -Tpng -o dag.png (Ref: https://haje01.github.io/2020/04/21/snakemake-tutorial.html)
+snakemake -j --dag | dot -Tpng -o dag.png (Reference: https://haje01.github.io/2020/04/21/snakemake-tutorial.html)
 
 ## Result
 files in 'meth_erosion' folder
