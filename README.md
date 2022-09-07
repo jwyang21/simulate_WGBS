@@ -25,6 +25,7 @@ snakemake -j --dag | dot -Tpng -o dag.png
 
 ## Result
 Files in 'meth_erosion' folder.
+- Please note that these are results of setting 'NumRegions = 3' in the Snakefile. In the original simulation, 'NumRegions = 1000' was used instead.
 
 ## DAG visualization of Snakefile workflow: 
 ![dag](https://user-images.githubusercontent.com/86412887/188853127-2662a6d7-b556-4f1b-8fb3-46959eeb05b2.png)
