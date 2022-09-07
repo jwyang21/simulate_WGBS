@@ -21,6 +21,9 @@ snakemake -j --dag | dot -Tpng -o dag.png (Ref: https://haje01.github.io/2020/04
 ## Result
 files in 'meth_erosion' folder
 
+## DAG visualization of Snakefile workflow: (also available from 'dag.png' uploaded in this github directory)
+![dag](https://user-images.githubusercontent.com/86412887/188853127-2662a6d7-b556-4f1b-8fb3-46959eeb05b2.png)
+
 ## Etc
 If 'LockException' error occurs when you try to run Snakefile using command in the 'Run' section above: 
 - First, execute this command: 'snakemake --unlock'
