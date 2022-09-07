@@ -1,3 +1,0 @@
-region1	2
-region2	10
-region3	8

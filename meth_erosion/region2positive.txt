@@ -1,3 +1,0 @@
-region1	False
-region2	True
-region3	True

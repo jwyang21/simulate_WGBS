@@ -1,3 +1,0 @@
-region1	3270
-region2	22978
-region3	10058
