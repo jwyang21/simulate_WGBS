@@ -40,7 +40,7 @@ DefaultCG = 0
 # Arguments to be used in Bismark only(not in Sherman)
 RefGenomeDir = '/data/project/jeewon/research/reference/hg38/'
 
-rule all:
+rule all: #
     input:
         os.path.join(SaveDir, 'All_Merged', 'merged.fastq') #result file of rule run_sherman #'/data/project/jeewon/research/metheor/metheor_snake_v3/meth_erosion/All_Merged/merged.fastq'
     output:
