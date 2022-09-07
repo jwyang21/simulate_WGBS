@@ -1,4 +1,4 @@
-#reference: https://stackoverflow.com/questions/29805642/learning-to-parse-a-fasta-file-with-python
+# referred to https://stackoverflow.com/questions/29805642/learning-to-parse-a-fasta-file-with-python
 import pandas as pd
 import numpy as np
 from read_fasta import *
