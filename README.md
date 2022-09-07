@@ -20,6 +20,8 @@ snakemake -j --dag | dot -Tpng -o dag.png (Ref: https://haje01.github.io/2020/04
 
 ## Result
 files in 'meth_erosion' folder
+- Final result file '/meth_erosion/All_Merged/merged_bismark_bt2.bam' is to be used as simulated WGBS reads.
+- Using the sorted version of the above file, '/meth_erosion/All_Merged/merged_bismark_bt2_sorted.bam' is also possible.
 
 ## DAG visualization of Snakefile workflow: (also available from 'dag.png' uploaded in this github directory)
 ![dag](https://user-images.githubusercontent.com/86412887/188853127-2662a6d7-b556-4f1b-8fb3-46959eeb05b2.png)
