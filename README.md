@@ -34,7 +34,7 @@ Files in 'meth_erosion' folder.
 
 ## Etc
 If 'LockException' error occurs when you try to run Snakefile using command in the 'Run' section above: 
-- Example: 
+- Example: ![deal_with_LockException](https://user-images.githubusercontent.com/86412887/188858250-2a7179bd-483f-4088-b7c2-5394db941c3a.png)
 - First, execute this command: 'snakemake --unlock'
   - As a result, a message saying 'Unlocking working directory' will appear. It means that LockException error is solved.
 - And then, execute the command in the 'Run' section above: 'snakemake -j 10'
