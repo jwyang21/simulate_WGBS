@@ -4,7 +4,7 @@ import numpy as np
 import os
 from write_fasta import *
 
-# README: Write fasta files of each subregion (i.e., first, erosion, second) of each region (i.e., region 1, region2, ... , region1000) based on 'region_info.csv' made by the very previous rule
+# README: Write fasta files of each subregion (i.e., first, erosion, second) of each region (i.e., region 1, region2, ... , region1000) based on 'region_info.csv'.
 
 parser = argparse.ArgumentParser(description='Necessary parameters for methylation erosion simulation.')
 
